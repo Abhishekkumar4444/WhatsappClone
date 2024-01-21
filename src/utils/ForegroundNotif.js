@@ -14,7 +14,9 @@ export const ForegroundNotif = () => {
         message: remoteMessage.notification?.body,
         playSound: true,
         soundName: 'default',
-        actions: ['Read More'], // Add an action button
+        actions: ['Read More', 'Dismiss'], // Add an action button
+        bigText: 'Custom notification with expanded text',
+        color: 'red',
       });
     });
 
